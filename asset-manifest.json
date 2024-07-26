@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chem-ai/static/css/main.f606664f.css",
+    "main.js": "/chem-ai/static/js/main.233f4896.js",
+    "static/media/Montserrat-Italic.ttf": "/chem-ai/static/media/Montserrat-Italic.7451547bd28d8dddbeea.ttf",
+    "static/media/Montserrat.ttf": "/chem-ai/static/media/Montserrat.7e687123cd4528224ce5.ttf",
+    "static/media/Morabba-Bold.ttf": "/chem-ai/static/media/Morabba-Bold.5343281865d504329e8d.ttf",
+    "static/media/Morabba-Light.ttf": "/chem-ai/static/media/Morabba-Light.446eebc49414add455d3.ttf",
+    "static/media/Morabba-Medium.ttf": "/chem-ai/static/media/Morabba-Medium.756e38b4d42c9ef7d363.ttf",
+    "index.html": "/chem-ai/index.html",
+    "main.f606664f.css.map": "/chem-ai/static/css/main.f606664f.css.map",
+    "main.233f4896.js.map": "/chem-ai/static/js/main.233f4896.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f606664f.css",
+    "static/js/main.233f4896.js"
+  ]
+}
