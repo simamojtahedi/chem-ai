@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f0f4f8;
+  font-family: Morabba;
+  font-weight: 600;
+  color: #334155;
+}
+
+.footer_items {
+  width: 300px;
+  position: relative;
+}
+
+.selected_footer_item {
+  position: absolute;
+  top: 1%;
+  width: 75px;
+  height: 98%;
+  border-radius: 16px;
+  transition: all 0.3s;
+  background-color: #f0f4f8;
+  z-index: 0;
+}
+
+@media (max-width: 1300px) {
+  body {
+    padding: 1rem;
+  }
+}

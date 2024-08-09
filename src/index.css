@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn-primary {
+    font-size: 1.1rem;
+    color: #334155;
+    background: #e2e8f0;
+    border: none;
+    box-shadow: 0 0 4px rgba(51, 65, 85, 0.2);
+  }
+
+  .btn-primary:hover {
+    background: #e2e8f0;
+    box-shadow: 0 0 8px rgba(51, 65, 85, 0.2);
+  }
+
+  .en-font {
+    font-family: "Montserrat";
+  }
+
+  .en-italic-font {
+    font-family: "Montserrat";
+    font-weight: 900;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: Morabba;
+    font-weight: 100;
+    src: url("./fonts/Morabba-Light.ttf");
+  }
+  @font-face {
+    font-family: Morabba;
+    font-weight: 400;
+    src: url("./fonts/Morabba-Medium.ttf");
+  }
+  @font-face {
+    font-family: Morabba;
+    font-weight: 900;
+    src: url("./fonts/Morabba-Bold.ttf");
+  }
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 400;
+    src: url("./fonts/Montserrat.ttf");
+  }
+  @font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 400;
+    src: url("./fonts/Montserrat-Italic.ttf");
+  }
+}
