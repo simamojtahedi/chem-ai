@@ -34,6 +34,41 @@ Interactive Chat:
 
 Ask the chatbot "What are the uses of Aspirin?" and get a detailed response.
 
+
+## Run Locally
+
+To run this project, you will need to add the following environment variables to your .env file
+
+Groq API key: `REACT_APP_API`
+
+Your Domain URL:  `REACT_APP_DOMAIN`
+
+
+
+Clone the project
+
+```bash
+  git clone https://github.com/simamojtahedi/chem-ai
+```
+
+Go to the project directory
+
+```bash
+  cd chem-ai
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
